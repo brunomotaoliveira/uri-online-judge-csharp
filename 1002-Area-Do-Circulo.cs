@@ -1,8 +1,8 @@
 using System;
 
-namespace HelloWorld
+namespace AreaDoCirculo
 {
-    class Program
+    class URI
     {
         static void Main(string[] args)
         {
