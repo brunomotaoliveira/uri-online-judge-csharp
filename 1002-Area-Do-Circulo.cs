@@ -6,7 +6,11 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            double raio = Convert.ToDouble(Console.ReadLine());
+            double n = 3.14159;
+            double area = n * (raio * raio);
+
+            Console.WriteLine($"A={area:f4}");
         }
     }
 }
